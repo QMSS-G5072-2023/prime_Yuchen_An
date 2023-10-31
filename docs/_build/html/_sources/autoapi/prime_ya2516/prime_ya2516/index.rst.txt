@@ -1,0 +1,37 @@
+:py:mod:`prime_ya2516.prime_ya2516`
+===================================
+
+.. py:module:: prime_ya2516.prime_ya2516
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   prime_ya2516.prime_ya2516.is_prime
+
+
+
+.. py:function:: is_prime(n)
+
+   Check if a given number is a prime number.
+
+   :param n:
+   :type n: an arbitrary number
+
+   :returns: * *Output a Boolean value.*
+             * *'True' if the input number is prime, and 'False' if it is not.*
+
+   .. rubric:: Examples
+
+   >>> from prime_ya2516 import prime_ya2516
+   >>> n = 5
+   >>> is_prime(n)
+   True
+
+
